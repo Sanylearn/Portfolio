@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               <pre className="text-gray-300 bg-[#1E1E1E] p-6 rounded-lg">
                 <code>
                   {`const developer = {
-  name: "Kaviyarasan G",
+  name: "Sany A",
   skills: ["Web Development"],
   passion: "Building scalable solutions",
   current: "Full Stack Developer",

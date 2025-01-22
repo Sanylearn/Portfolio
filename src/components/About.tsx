@@ -25,7 +25,7 @@ export default function Hero() {
         >
           <div className="space-y-2">
             <h2 className="text-xl sm:text-2xl text-white font-medium">Hello, It&apos;s Me</h2>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">Kaviyarasan</h1>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">Sany</h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-white">
               And I&apos;m a <span className="text-blue-800 font-medium">Full Stack Web Developer</span>
             </p>
