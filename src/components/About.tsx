@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import { Facebook, Twitter, Youtube, Linkedin } from "lucide-react"
 import me from '../../public/assets/me.png'
+import { BackgroundBeams } from "./ui/background-beams"
 
 export default function Hero() {
   const socialLinks = [
@@ -14,8 +15,9 @@ export default function Hero() {
   ]
 
   return (
-    <div id="about" className="min-h-screen bg-[#1a1a1a] flex items-center px-4 sm:px-6 lg:px-8 py-12 lg:py-0">
-      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+    <div id="about" className="min-h-screen bg-[#1a1a1a] flex items-center px-4 sm:px-6 lg:px-8 py-12 lg:py-0 relative overflow-hidden">
+      <BackgroundBeams className="opacity-30" />
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative z-10">
         {/* Left Content */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}

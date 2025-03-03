@@ -9,8 +9,6 @@ import type { StaticImageData } from "next/image"
 
 // Import images with exact names as provided
 import nextjs from "../../public/assets/nextjs.png"
-import laravel from "../../public/assets/Laravel.png"
-import mysql from "../../public/assets/MySQL-Logo.png"
 import vercel from "../../public/assets/apple-touch-icon-256x256.png"
 import clickup from "../../public/assets/clickup.png"
 import expressjs from "../../public/assets/expressjs.png"
@@ -27,10 +25,9 @@ import redux from "../../public/assets/redux.png"
 import swagger from "../../public/assets/swagger.png"
 import tailwind from "../../public/assets/tailwind-css.png"
 import reactjs from "../../public/assets/teactjs.png"
-import trello from "../../public/assets/trello.png"
 import ts from "../../public/assets/ts.png"
 import vsCode from "../../public/assets/vs-code.png"
-import xampp from "../../public/assets/xampp.png"
+import docker from "../../public/assets/docker.png"
 
 interface Item {
   name: string
@@ -44,13 +41,11 @@ const tools: Item[] = [
   { name: "GitHub", icon: github, category: "Version Control" },
   { name: "Postman", icon: postman, category: "API Testing" },
   { name: "Swagger", icon: swagger, category: "API Documentation" },
-  { name: "Trello", icon: trello, category: "Project Management" },
   { name: "ClickUp", icon: clickup, category: "Project Management" },
   { name: "Miro", icon: miro, category: "Collaboration" },
   { name: "Slack", icon: slack, category: "Communication" },
   { name: "Figma", icon: figma, category: "Design" },
   { name: "Vercel", icon: vercel, category: "Deployment" },
-  { name: "XAMPP", icon: xampp, category: "Development" },
 ]
 
 const languages: Item[] = [
@@ -58,12 +53,11 @@ const languages: Item[] = [
   { name: "Next.js", icon: nextjs, category: "Frontend" },
   { name: "TypeScript", icon: ts, category: "Language" },
   { name: "Tailwind CSS", icon: tailwind, category: "CSS" },
-  { name: "Redux", icon: redux, category: "State Management" },
+  { name: "Redux Toolkit", icon: redux, category: "State Management" },
   { name: "Node.js", icon: nodejs, category: "Backend" },
   { name: "Express.js", icon: expressjs, category: "Backend" },
-  { name: "Laravel", icon: laravel, category: "Backend" },
   { name: "MongoDB", icon: mongodb, category: "Database" },
-  { name: "MySQL", icon: mysql, category: "Database" },
+  {name: 'Docker',icon:docker,category:"CI/CD"},
   { name: "FlutterFlow", icon: flutterflow, category: "Mobile Development" },
 ]
 

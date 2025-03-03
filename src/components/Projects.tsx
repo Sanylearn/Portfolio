@@ -5,6 +5,8 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import Link from "next/link";
 import scene from "../../public/assets/scene.png";
+import ecom from "../../public/assets/ecom.png";
+import authKit from "../../public/assets/authKit.png"
 
 const Projects: React.FC = () => {
   return (
@@ -82,9 +84,9 @@ const Projects: React.FC = () => {
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
                 <Image
-                  src={scene}
-                  height="1000"
-                  width="1000"
+                  src={ecom}
+                  height="800"
+                  width="800"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
@@ -93,7 +95,7 @@ const Projects: React.FC = () => {
                 <CardItem
                   translateZ={20}
                   as="a"
-                  href="https://github.com"
+                  href="https://github.com/kaviyarasan2865/vembar-karupatti"
                   target="_blank"
                   className="px-4 py-2 rounded-xl text-sm font-bold dark:text-white text-white hover:text-blue-400"
                 >
@@ -102,7 +104,7 @@ const Projects: React.FC = () => {
                 <CardItem
                   translateZ={20}
                   as="a"
-                  href="https://example.com/demo"
+                  href="https://vembar-karupatti.vercel.app/"
                   target="_blank"
                   className="px-4 py-2 rounded-xl  bg-black dark:bg-white dark:text-black text-white text-xs font-bold "
                 >
@@ -130,9 +132,9 @@ const Projects: React.FC = () => {
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
                 <Image
-                  src={scene}
-                  height="1000"
-                  width="1000"
+                  src={authKit}
+                  height="800"
+                  width="800"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
@@ -141,7 +143,7 @@ const Projects: React.FC = () => {
                 <CardItem
                   translateZ={20}
                   as="a"
-                  href="https://github.com"
+                  href="https://github.com/kaviyarasan2865/nextjs-auth-kit"
                   target="_blank"
                   className="px-4 py-2 rounded-xl text-sm font-bold dark:text-white text-white hover:text-blue-400"
                 >
@@ -150,7 +152,7 @@ const Projects: React.FC = () => {
                 <CardItem
                   translateZ={20}
                   as="a"
-                  href="https://example.com/demo"
+                  href="https://www.npmjs.com/package/nextjs-auth-kit"
                   target="_blank"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
